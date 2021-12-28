@@ -6,7 +6,7 @@
 /*   By: aricholm <aricholm@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/11 12:35:22 by aricholm          #+#    #+#             */
-/*   Updated: 2021/08/28 17:21:37 by aricholm         ###   ########.fr       */
+/*   Updated: 2021/12/28 12:06:15 by aricholm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,7 +103,7 @@ int	main(int argc, char **argv)
 		if (check(stack))
 			write(1, "OK\n", 3);
 		else
-			write(1, "KO\n", 3 );
+			write(1, "KO\n", 3);
 	}
 	free_stack(&stack);
 }
